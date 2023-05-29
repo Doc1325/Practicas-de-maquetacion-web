@@ -1,10 +1,12 @@
 body{
     scroll-margin: none;
     max-width: 100%;
+    
 }
 body::-webkit-scrollbar{
     display: none;
   }
+
 .home {
     margin: 0;
     color: white;
@@ -25,10 +27,8 @@ body::-webkit-scrollbar{
 }
 .logo-container {
 
-    align-items: center;
-    position: relative;
-    width: 40vw;
-    height: fit-content;
+    vertical-align: middle;
+
 
 }
 .logo-container, .img-container, .text-container{
@@ -36,22 +36,17 @@ body::-webkit-scrollbar{
 
 }
 .logo-title {
-    display: inline-block;
-    padding: 0;
-    margin-bottom: 0;
-    margin-top: 2px;
-    height: 50px;
+    vertical-align: middle;
+
+    display: inline;
+   align-self: auto;
     
-    align-items: center;
 }
 
 .icon-img {
-    display: inline-block;
-    position: relative;
+    display: inline;
     top: 20%;
-    width: 50px;
     margin-right: 1em;
-    text-align: center;
 }
 
 .text-container{
@@ -93,8 +88,8 @@ body::-webkit-scrollbar{
 
 
 .img-offer{
-width: 80%;
-height: 100%;
+width: 90%;
+height: 90%;
 }
 .circle {
     display: inline-block;
@@ -191,6 +186,7 @@ min-width: 200px;
     width: 100%;      
      height: fit-content;
   min-height: 100vh;
+
 }
 .btn-class{
     width: fit-content;
@@ -231,24 +227,20 @@ margin-left: auto;
 }
 .amenities-collection, .success-collection,.info-collection{
     display: grid;
-align-items: center;
  grid-template-columns: repeat(auto-fit, minmax(250px,1fr) ); 
-gap: 16px;  
-    margin-left: 50px;
+ gap: 50px;
+ margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 5rem;
 }
 .amenitie-item, .success-item, .info-item{
-   
-    font-size: 1.2rem;
-width: 20vw;
+  font-size: 1.2rem;
     min-width: 300px;
     background-color: #000000;
     color: white;
     border: none;
     margin-top: 3rem;
     min-height: 350px;
-    height: 45vh;
 }
 .success-item{
     height: fit-content;
@@ -261,7 +253,6 @@ min-width: 64px;
     color: #CCFE06;
 }
 .card-body{
-text-align: justify;
 padding: 0%;
 padding-top: 20px;
 }
@@ -341,12 +332,19 @@ height: fit-content;
     margin-right: 1rem;
 }
 @media (max-width: 700px) {
+
+
     .flex-container {
       flex-direction: column;
     }
-.class-title{
+.class-title, .amenities-title{
     width: 100%;
 text-align: center;
+
+}
+
+.amenities-title{
+ 
 }
 .class-text{
     margin-left: auto;
@@ -372,10 +370,9 @@ width: 60vw;
 .text-container{
   
     text-align: center;
-    width: 85vw;
+    width: 100%;
     height: 80vh;
-
-    margin-bottom: 2rem;
+margin: 0;
 
 }
 .learn-text{
@@ -390,22 +387,26 @@ width: 60vw;
 .learn-img{
     margin-top: 4rem;
     margin-left: 0;
-    width: 60vw;
-    height: 65vh;
+    width: 80%;
     max-width: 600px;
 
-    max-height: 550px;
+    max-height: 600px;
 }
 .learn-img-container{
 
     text-align: center;
 }
+.img-offer{
+    width: 100%;
+}
+
 
 .img-container{
     position: relative;
 
     margin: 0;
     width: 100vw;
+    
 }
 
 .circle{
@@ -417,5 +418,7 @@ width: 60vw;
     font-size: 1rem;
 
 }
+
+
 
   }
