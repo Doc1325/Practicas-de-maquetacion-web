@@ -8,6 +8,8 @@ https://mellow-florentine-750f49.netlify.app
 2-Muscle Major Gym
 
 https://6470207b12128c3305aa0b94--graceful-truffle-c73119.netlify.app/
+![image](https://github.com/Doc1325/Practicas-de-maquetacion-web/assets/57734968/c752a601-621c-4e1a-ae6e-af25427097d8)
+
 
 3-My-Team-Page
 https://astounding-bienenstitch-1c69b6.netlify.app
